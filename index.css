@@ -1031,7 +1031,11 @@ body {
 }
 @media (max-width: 900px){
     .description{
-        height: 240vh;
+        height: 235vh;
+    }
+    .header_main img{
+        width: 10%;
+        margin-left: 1%;
     }
 }
 @media (max-width: 800px){
@@ -1068,10 +1072,24 @@ body {
     }
     .mem1,.mem2,.mem3,.mem4{
         width: 70%;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
     .loaderimg{
         width: 100%;
         height: 30%;
+    }
+}
+@media (max-width:450px) {
+    .description{
+        height: 340vh;
+    }
+    .heading{
+        gap: 20px;
+    }
+    .header_main img{
+        width: 30%;
+        margin-left: 1%;
     }
 }
 @media (max-width:390px){

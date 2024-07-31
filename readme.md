@@ -11,4 +11,6 @@ use `git clone https://github.com/ShwetankDohroo1/GDSC.git`
 after that `cd GDSC`
 and you are good to go
 
+You can View the project live here: https://shwetankdohroo1.github.io/GDSC/
+
 Contributions are welcome, Just clone this repository and ask for merge requests with your suggested changes.

@@ -278,12 +278,12 @@
         gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
         //initial animations
-        gsap.from(".header_main", { duration: 1, y: -100, opacity: 0 });
+        gsap.from(".header_main", { duration: 1, y: -50, opacity: 0 });
         gsap.from(".logo", { duration: 1.5, rotation: 360, scale: 0.5, delay: 0 });
-        gsap.from(".options ul li", { duration: 1, x: -100, opacity: 0, stagger: 0.2 });
+        gsap.from(".options ul li", { duration: 1, x: -50, opacity: 0, stagger: 0.2 });
         gsap.from(".frontpage", { duration: 2, y: 150, opacity: 0 });
         gsap.from(".mail,.contacts,.docs,.drive", { duration: 2, x: -100, opacity: 0 });
-        gsap.from(".one,.calender,.playstore,.news", { duration: 2, x: 2000, opacity: 0 });
+        gsap.from(".one,.calender,.playstore,.news", { duration: 2, x: 1700, opacity: 0 });
 
         //scrollTrigger animations
         gsap.fromTo(".aboutgdsc", {
@@ -312,57 +312,57 @@
         });
 
         gsap.fromTo(".span1", {
-            x: -500,
+            x: -50,
             opacity: 0
         }, {
-            x: 100,
+            x: 50,
             opacity: 1,
             scrollTrigger: {
                 trigger: ".span1",
                 start: "top 90%",
-                end: "top 10%",
+                end: "top 50%",
                 scrub: true,
             }
         });
 
         gsap.fromTo(".span2", {
-            x: 500,
+            x: 50,
             opacity: 0
         }, {
-            x: -100,
+            x: -50,
             opacity: 1,
             scrollTrigger: {
                 trigger: ".span2",
                 start: "top 90%",
-                end: "top 10%",
+                end: "top 50%",
                 scrub: true,
             }
         });
 
         gsap.fromTo(".span3", {
-            x: -500,
+            x: -50,
             opacity: 0
         }, {
-            x: 100,
+            x: 50,
             opacity: 1,
             scrollTrigger: {
                 trigger: ".span3",
                 start: "top 90%",
-                end: "top 10%",
+                end: "top 50%",
                 scrub: true,
             }
         });
 
         gsap.fromTo(".span4", {
-            x: 500,
+            x: 50,
             opacity: 0
         }, {
-            x: -100,
+            x: -50,
             opacity: 1,
             scrollTrigger: {
                 trigger: ".span4",
                 start: "top 90%",
-                end: "top 10%",
+                end: "top 50%",
                 scrub: true,
             }
         });
@@ -408,7 +408,7 @@
             }
         });
         gsap.fromTo(".mem1", {
-            x: -200,
+            x: -50,
             opacity: 0
         }, {
             x: 0,
@@ -421,45 +421,46 @@
             }
         });
         gsap.fromTo(".mem2", {
-            x: 200,
+            x: 50,
             opacity: 0
         }, {
             x: 0,
             opacity: 1,
             scrollTrigger: {
-                trigger: ".coreteam",
+                trigger: ".mem2",
                 start: "top 60%",
                 end: "top 40%",
                 scrub: true,
             }
         });
         gsap.fromTo(".mem3", {
-            y: 200,
+            x: -50,
             opacity: 0
         }, {
-            y: 0,
+            x: 0,
             opacity: 1,
             scrollTrigger: {
-                trigger: ".mem1",
-                start: "top 10%",
-                end: "bottom 40%",
+                trigger: ".mem3",
+                start: "top 60%",
+                end: "top 40%",
                 scrub: true,
             }
         });
         gsap.fromTo(".mem4", {
-            y: 200,
+            x: 50,
             opacity: 0
         }, {
-            y: 0,
+            x: 0,
             opacity: 1,
             scrollTrigger: {
-                trigger: ".mem1",
-                start: "top 10%",
-                end: "bottom 40%",
+                trigger: ".mem4",
+                start: "top 60%",
+                end: "top 40%",
                 scrub: true,
             }
         });
 
+        
         //logos
         gsap.fromTo(".mail",
             {
@@ -523,7 +524,7 @@
             opacity: 1,
         }, {
             y: 300,
-            x: 1700,
+            x: 1400,
             opacity: 0,
             width: "0%",
             scrollTrigger: {
@@ -536,8 +537,8 @@
         gsap.fromTo(".one", {
             opacity: 1,
         }, {
-            y: 700,
-            x: 1900,
+            y: 500,
+            x: 1700,
             opacity: 0,
             width: "0%",
             scrollTrigger: {

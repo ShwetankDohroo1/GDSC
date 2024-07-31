@@ -923,103 +923,6 @@ body {
     background: linear-gradient(180deg, #DB4437, #F4B400);
     border-radius: 10px;
 }
-@media (max-width: 1000px) {
-    body{
-        width: 100%;
-    }
-    .header_main{
-        width: 100%;
-    }
-    .header_main img{
-        width: 10%;
-        margin-left: 1%;
-    }
-    .backimgs{
-        display: none;
-    }
-    .description{
-        height: 220vh;
-    }
-    .why{
-        width: 100%;
-    }
-    .span1, .span2, .span3, .span4{
-        width: 75%;
-    }
-    .span1 h1,.span2 h1,.span3 h1,.span4 h1{
-        font-size: 1rem;
-    }
-    .span1 span,.span2 span,.span3 span,.span4 span{
-        font-size: 1.5rem;
-    }
-    .mem1,.mem2,.mem3,.mem4{
-        width: 30%;
-    }
-    .leadimg{
-        width: 45%;
-    }
-    .scrollimg{
-        display: none;
-    }
-}
-@media (max-width: 800px){
-    .header_main img{
-        width: 10%;
-    }
-    .description{
-        height: 230vh;
-    }
-    .coreteam{
-        flex-direction: column;
-        align-items: center;
-    }
-    .mem1,.mem2,.mem3,.mem4{
-        width: 50%;
-    }
-}
-@media (max-width:500px){
-    .text{
-        font-size: 4rem;
-    }
-    .header_main img{
-        width: 20%;
-    }
-    .description{
-        height: 325vh;
-    }
-    .img1,.img2{
-        display: none;
-    }
-    .mem1,.mem2,.mem3,.mem4{
-        width: 70%;
-    }
-}
-@media (max-width:390px){
-    .header_main{
-        flex-direction: column;
-    }
-    /* .options ul{
-        flex-direction: column;
-    } */
-    .frontpage{
-        margin-top: 30%;
-    }
-    .heading{
-        align-items: center;
-        justify-content: space-around;
-    }
-    .header_main img{
-        padding: 0;
-        width: 30%;
-        height: 90%;
-    }
-    .description{
-        height: 480vh;
-    }
-    .events{
-        height: 60vh;
-    }
-}
 .loader{
     position: absolute;
     top: 0;
@@ -1032,9 +935,17 @@ body {
     align-items: center;
     z-index: 100;
 }
+.loaderimg{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
 .loader img{
-    width: 20%;
-    height: 20%;
+    /* width: 20%;
+    height: 20%; */
     opacity: 0;
     animation: loader 3s ease-in-out;
     z-index: 100;
@@ -1075,4 +986,116 @@ body {
         transform: rotate(180deg);
         opacity: 0;
     }  
+}
+@media (max-width: 1000px) {
+    body{
+        width: 100%;
+    }
+    .header_main{
+        width: 100%;
+    }
+    .header_main img{
+        width: 10%;
+        margin-left: 1%;
+    }
+    .backimgs{
+        display: none;
+    }
+    .description{
+        height: 220vh;
+    }
+    .why{
+        width: 100%;
+    }
+    .span1, .span2, .span3, .span4{
+        width: 75%;
+    }
+    .span1 h1,.span2 h1,.span3 h1,.span4 h1{
+        font-size: 1rem;
+    }
+    .span1 span,.span2 span,.span3 span,.span4 span{
+        font-size: 1.5rem;
+    }
+    .mem1,.mem2,.mem3,.mem4{
+        width: 30%;
+    }
+    .leadimg{
+        width: 45%;
+    }
+    .scrollimg{
+        display: none;
+    }
+    .loaderimg{
+        height: 30%;
+    }
+}
+@media (max-width: 800px){
+    .header_main img{
+        width: 10%;
+    }
+    .description{
+        height: 230vh;
+    }
+    .coreteam{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mem1,.mem2,.mem3,.mem4{
+        width: 50%;
+    }
+    .loaderimg{
+        width: 100%;
+        height: 40%;
+    }
+}
+@media (max-width:500px){
+    .text{
+        font-size: 4rem;
+    }
+    .header_main img{
+        width: 20%;
+    }
+    .description{
+        height: 325vh;
+    }
+    .img1,.img2{
+        display: none;
+    }
+    .mem1,.mem2,.mem3,.mem4{
+        width: 70%;
+    }
+    .loaderimg{
+        width: 100%;
+        height: 30%;
+    }
+}
+@media (max-width:390px){
+    .header_main{
+        flex-direction: column;
+    }
+    /* .options ul{
+        flex-direction: column;
+    } */
+    .frontpage{
+        margin-top: 30%;
+    }
+    .heading{
+        align-items: center;
+        justify-content: space-around;
+    }
+    .header_main img{
+        padding: 0;
+        width: 30%;
+        height: 90%;
+    }
+    .description{
+        height: 480vh;
+    }
+    .events{
+        height: 60vh;
+    }
+    .loaderimg{
+        width: 100%;
+        height: 20%;
+    }
 }

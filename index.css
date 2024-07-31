@@ -987,7 +987,7 @@ body {
         opacity: 0;
     }  
 }
-@media (max-width: 1300px) {
+@media (max-width: 1500px) and (max-width: 1500px){
     .description{
         height: 270vh;
     }
@@ -1158,7 +1158,7 @@ body {
 }
 @media (max-width: 420px) and (max-height:920px){
     .description{
-        height: 330vh;
+        height: 340vh;
     }
 }
 @media (max-width: 400px) and (max-height:900px){

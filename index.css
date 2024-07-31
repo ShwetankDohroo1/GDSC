@@ -1,32 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Dancing+Script:wght@700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+BE+VLG:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Dancing+Script:wght@700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passero+One&family=Playwrite+BE+VLG:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Anton+SC&family=Dancing+Script:wght@700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passero+One&family=Playwrite+BE+VLG:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Anton+SC&family=Dancing+Script:wght@700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passero+One&family=Playwrite+BE+VLG:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-
-::-webkit-scrollbar {
-    width: 5px;
-}
-
-::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, #DB4437, #F4B400);
-    border-radius: 10px;
-}
-
 
 body {
     padding: 0;
     margin: 0;
     width: 100%;
     height: 600vh;
-    /* background-color: f3edda; */
-    background-color: white;
+    background-color: #f3edda;
     color: black;
     font-family: "Passero One", sans-serif;
     overflow-x: hidden;
@@ -922,4 +906,16 @@ body {
 }
 .contacts img{
     width: 100%;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #DB4437, #F4B400);
+    border-radius: 10px;
 }

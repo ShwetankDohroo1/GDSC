@@ -987,6 +987,11 @@ body {
         opacity: 0;
     }  
 }
+@media (max-width: 1300px) and (max-height:1000px) {
+    .description{
+        height: 270vh;
+    }
+}
 @media (max-width: 1000px) and (max-height:900px) {
     body{
         width: 100%;
@@ -1057,6 +1062,11 @@ body {
         height: 40%;
     }
 }
+@media (max-width: 700px) and (max-height:900px)  {
+    .description{
+        height: 300vh;
+    }
+}
 @media (max-width:500px) and (max-height:900px){
     .text{
         font-size: 4rem;
@@ -1105,11 +1115,20 @@ body {
     .heading{
         align-items: center;
         justify-content: space-around;
+        /* height: 10%; */
+    }
+    .heading h1{
+        margin: 0;
+    }
+    .heading h1 a{
+        margin: 0;
+        font-size: 2rem;
     }
     .header_main img{
+        display: none;
+    }
+    .options ul{
         padding: 0;
-        width: 30%;
-        height: 90%;
     }
     .description{
         height: 390vh;

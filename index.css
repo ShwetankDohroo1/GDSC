@@ -1393,12 +1393,12 @@ body {
 }
 @media (max-width: 380px) and (max-height:750px){
     .description{
-        height: 430vh;
+        height: 440vh;
     }
 }
 @media (max-width: 380px) and (max-height:700px){
     .description{
-        height: 460vh;
+        height: 470vh;
     }
 }
 @media (max-width:365px){

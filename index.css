@@ -1351,6 +1351,21 @@ body {
         height: 330vh;
     }
 }
+@media (max-width: 420px) and (max-height:850px){
+    .description{
+        height: 400vh;
+    }
+}
+@media (max-width: 420px) and (max-height:820px){
+    .description{
+        height: 390vh;
+    }
+}
+@media (max-width: 420px) and (max-height:800px){
+    .description{
+        height: 400vh;
+    }
+}
 @media (max-width: 420px) and (max-height:750px){
     .description{
         height: 400vh;

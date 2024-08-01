@@ -14,7 +14,7 @@ body {
     color: black;
     font-family: "Passero One", sans-serif;
     overflow-x: hidden;
-    /* animation: hidden 3s; */
+    animation: hidden 3s;
 }
 
 .Main {

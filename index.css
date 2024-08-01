@@ -587,7 +587,7 @@ body {
     position: absolute;
     bottom: -15px;
     left: -4px;
-    z-index: -1;
+    z-index: -2;
     background-color: #2B1800;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;

@@ -1485,6 +1485,16 @@ body {
         height: 305vh;
     }
 }
+@media (max-width: 375px) and (max-height:750px){
+    .description{
+        height: 350vh;
+    }
+}
+@media (max-width: 375px) and (max-height:720px){
+    .description{
+        height: 350vh;
+    }
+}
 @media (max-width: 375px) and (max-height:667px){
     .description{
         height: 370vh;

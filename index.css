@@ -1232,6 +1232,11 @@ body {
         height: 30%;
     }
 }
+@media (max-width: 490px) and (max-height:700px){
+    .description{
+        height: 410vh;
+    }
+}
 @media (max-width:450px){
     .header_main img{
         width: 30%;
@@ -1240,8 +1245,12 @@ body {
     .header_main{
         flex-direction: column;
     }
+    .description{
+        height: 340vh;
+    }
     .frontpage{
-        margin-top: 30%;
+        margin-top: 50%;
+        height: 75vh;
     }
     .heading{
         align-items: center;
@@ -1261,9 +1270,6 @@ body {
     .options ul{
         padding: 0;
     }
-    .description{
-        height: 340vh;
-    }
     .events{
         height: 60vh;
     }
@@ -1272,55 +1278,71 @@ body {
         height: 25%
     }
 }
-@media (max-width:410px){
+@media (max-width: 450px) and (max-height:750px){
     .description{
-        height: 360vh;
+        height: 390vh;
+    }
+}
+@media (max-width: 450px) and (max-height:700px){
+    .description{
+        height: 430vh;
     }
 }
 @media (max-width: 430px) and (max-height:950px){
     .description{
-        height: 350vh;
+        height: 340vh;
+    }
+}
+
+@media (max-width: 430px) and (max-height:890px){
+    .description{
+        height: 340vh;
+    }
+}
+@media (max-width: 430px) and (max-height:750px){
+    .description{
+        height: 400vh;
     }
 }
 
 @media (max-width: 420px) and (max-height:920px){
     .description{
-        height: 330vh;
+        height: 320vh;
     }
 }
-@media (max-width: 430px) and (max-height:890px){
-    .description{
-        height: 350vh;
-    }
-}
-@media (max-width: 490px) and (max-height:700px){
+@media (max-width: 420px) and (max-height:750px){
     .description{
         height: 420vh;
     }
 }
-@media (max-width: 450px) and (max-height:700px){
+@media (max-width: 420px) and (max-height:700px){
     .description{
         height: 440vh;
     }
 }
-@media (max-width: 420px) and (max-height:700px){
+@media (max-width: 410px) and (max-height:700px){
     .description{
         height: 450vh;
     }
 }
-@media (max-width: 410px) and (max-height:700px){
+@media (max-width:410px){
     .description{
-        height: 460vh;
+        height: 350vh;
     }
 }
 @media (max-width: 400px) and (max-height:900px){
     .description{
-        height: 370vh;
+        height: 360vh;
     }
 }
 @media (max-width: 400px) and (max-height:700px){
     .description{
-        height: 490vh;
+        height: 480vh;
+    }
+}
+@media (max-width: 400px) and (max-height:750px){
+    .description{
+        height: 440vh;
     }
 }
 @media (max-width: 380px) and (max-height:800px){
@@ -1328,78 +1350,58 @@ body {
         height: 415vh;
     }
 }
-@media (max-width: 450px) and (max-height:750px){
+@media (max-width: 380px) and (max-height:750px){
     .description{
-        height: 400vh;
-    }
-}
-@media (max-width: 430px) and (max-height:750px){
-    .description{
-        height: 410vh;
-    }
-}
-@media (max-width: 420px) and (max-height:750px){
-    .description{
-        height: 430vh;
-    }
-}
-@media (max-width: 400px) and (max-height:750px){
-    .description{
-        height: 450vh;
+        height: 440vh;
     }
 }
 @media (max-width: 380px) and (max-height:750px){
     .description{
-        height: 450vh;
-    }
-}
-@media (max-width:365px){
-    .description{
-        height: 370vh;
-    }
-}
-@media (max-width: 380px) and (max-height:750px){
-    .description{
-        height: 460vh;
+        height: 470vh;
     }
 }
 @media (max-width: 380px) and (max-height:700px){
     .description{
-        height: 480vh;
+        height: 470vh;
+    }
+}
+@media (max-width:365px){
+    .description{
+        height: 415vh;
     }
 }
 @media (max-width: 360px) and (max-height:750px){
     .description{
-        height: 500vh;
+        height: 490vh;
     }
 }
 @media (max-width: 360px) and (max-height:700px){
     .description{
-        height: 450vh;
+        height: 440vh;
     }
 }
 @media (max-width: 360px) and (max-height:690px){
     .description{
-        height: 490vh;
+        height: 480vh;
     }
 }
 @media (max-width: 340px) and (max-height:690px){
     .description{
-        height: 520vh;
+        height: 510vh;
     }
 }
 @media (max-width: 320px) and (max-height:690px){
     .description{
-        height: 540vh;
+        height: 530vh;
     }
 }
 @media (max-width: 310px) and (max-height:750px){
     .description{
-        height: 550vh;
+        height: 540vh;
     }
 }
 @media (max-width: 310px) and (max-height:690px){
     .description{
-        height: 560vh;
+        height: 550vh;
     }
 }

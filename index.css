@@ -1393,7 +1393,7 @@ body {
 }
 @media (max-width: 380px) and (max-height:750px){
     .description{
-        height: 440vh;
+        height: 445vh;
     }
 }
 @media (max-width: 380px) and (max-height:700px){

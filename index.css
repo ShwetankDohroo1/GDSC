@@ -989,7 +989,19 @@ body {
 }
 @media (max-width: 2000px){
     .description{
-        height: 240vh;
+        height: 200vh;
+    }
+    .backimgs{
+        display: none;
+    }
+    .header_main img{
+        width: 5%;
+        margin-left: 1%;
+    }
+}
+@media (max-width: 1800px){
+    .description{
+        height: 220vh;
     }
     .backimgs{
         display: none;

@@ -14,6 +14,7 @@ body {
     color: black;
     font-family: "Passero One", sans-serif;
     overflow-x: hidden;
+    animation: hidden 3s;
 }
 
 .Main {
@@ -986,6 +987,14 @@ body {
         transform: rotate(180deg);
         opacity: 0;
     }  
+}
+@keyframes hidden {
+    0%{
+        overflow: hidden;
+    }
+    100%{
+        overflow: hidden;
+    }
 }
 @media (max-width: 2000px){
     .description{

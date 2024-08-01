@@ -987,6 +987,38 @@ body {
         opacity: 0;
     }  
 }
+@media (max-width: 2000px){
+    .description{
+        height: 240vh;
+    }
+    .backimgs{
+        display: none;
+    }
+    .header_main img{
+        width: 5%;
+        margin-left: 1%;
+    }
+}
+@media (max-width: 1700px){
+    .description{
+        height: 240vh;
+    }
+    .backimgs{
+        display: none;
+    }
+    .header_main img{
+        width: 5%;
+        margin-left: 1%;
+    }
+}
+@media (max-width: 1700px) and (max-width: 1500px){
+    .description{
+        height: 500vh;
+    }
+    .backimgs{
+        display: none;
+    }
+}
 @media (max-width: 1500px) and (max-width: 1500px){
     .description{
         height: 270vh;

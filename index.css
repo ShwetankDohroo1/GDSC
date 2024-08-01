@@ -14,7 +14,7 @@ body {
     color: black;
     font-family: "Passero One", sans-serif;
     overflow-x: hidden;
-    animation: hidden 3.1s;
+    animation: hidden 3s;
 }
 
 .Main {
@@ -1044,7 +1044,6 @@ body {
     .frontpage{
         margin: 0;
         top: -10%;
-        height: 100vh;
     }
     .events{
         height: 70vh;
@@ -1057,7 +1056,6 @@ body {
     .frontpage{
         margin: 0;
         top: -10%;
-        height: 100vh;
     }
     .backimgs{
         display: none;
@@ -1078,7 +1076,6 @@ body {
     .frontpage{
         margin: 0;
         top: -10%;
-        height: 100vh;
     }
     .events{
         height: 70vh;
@@ -1091,7 +1088,6 @@ body {
     .frontpage{
         margin: 0;
         top: -10%;
-        height: 100vh;
     }
     .events{
         height: 70vh;
@@ -1104,7 +1100,6 @@ body {
     .frontpage{
         margin: 0;
         top: -10%;
-        height: 100vh;
     }
     .events{
         height: 70vh;
@@ -1122,7 +1117,6 @@ body {
     .frontpage{
         margin: 0;
         top: -10%;
-        height: 100vh;
     }
     .events{
         height: 70vh;

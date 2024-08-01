@@ -414,7 +414,7 @@ body {
 }
 
 .span1 span {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .span2 {
@@ -432,7 +432,7 @@ body {
 }
 
 .span2 span {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 
@@ -451,7 +451,7 @@ body {
 }
 
 .span3 span {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .span4 {
@@ -469,7 +469,7 @@ body {
 }
 
 .span4 span {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .scrollimg {
@@ -1169,10 +1169,10 @@ body {
         width: 75%;
     }
     .span1 h1,.span2 h1,.span3 h1,.span4 h1{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .span1 span,.span2 span,.span3 span,.span4 span{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .mem1,.mem2,.mem3,.mem4{
         width: 30%;

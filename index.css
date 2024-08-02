@@ -1517,6 +1517,26 @@ body {
         height: 370vh;
     }
 }
+@media (max-width: 370px) and (max-height:850px){
+    .description{
+        height: 305vh;
+    }
+}
+@media (max-width: 370px) and (max-height:820px){
+    .description{
+        height: 310vh;
+    }
+}
+@media (max-width: 370px) and (max-height:800px){
+    .description{
+        height: 320vh;
+    }
+}
+@media (max-width: 370px) and (max-height:780px){
+    .description{
+        height: 325vh;
+    }
+}
 @media (max-width: 370px) and (max-height:760px){
     .description{
         height: 335vh;
@@ -1525,9 +1545,79 @@ body {
         font-size: 1rem;
     }
 }
-@media (max-width: 370px) and (max-height:650px){
+@media (max-width: 370px) and (max-height:740px){
     .description{
-        height: 410vh;
+        height: 345vh;
+    }
+}
+@media (max-width: 370px) and (max-height:720px){
+    .description{
+        height: 355vh;
+    }
+}
+@media (max-width: 370px) and (max-height:700px){
+    .description{
+        height: 365vh;
+    }
+}
+@media (max-width: 370px) and (max-height:680px){
+    .description{
+        height: 375vh;
+    }
+}
+@media (max-width: 370px) and (max-height:660px){
+    .description{
+        height: 390vh;
+    }
+}
+@media (max-width: 370px) and (max-height:640px){
+    .description{
+        height: 400vh;
+    }
+}
+@media (max-width: 370px) and (max-height:620px){
+    .description{
+        height: 415vh;
+    }
+}
+@media (max-width: 370px) and (max-height:600px){
+    .description{
+        height: 430vh;
+    }
+}
+@media (max-width: 370px) and (max-height:580px){
+    .description{
+        height: 445vh;
+    }
+}
+@media (max-width: 370px) and (max-height:560px){
+    .description{
+        height: 460vh;
+    }
+}
+@media (max-width: 370px) and (max-height:540px){
+    .description{
+        height: 475vh;
+    }
+}
+@media (max-width: 370px) and (max-height:520px){
+    .description{
+        height: 495vh;
+    }
+}
+@media (max-width: 370px) and (max-height:500px){
+    .description{
+        height: 500vh;
+    }
+}
+@media (max-width:365px) and (max-height:840px){
+    .description{
+        height: 305vh;
+    }
+}
+@media (max-width:365px) and (max-height:820px){
+    .description{
+        height: 310vh;
     }
 }
 @media (max-width:365px) and (max-height:800px){
@@ -1535,24 +1625,79 @@ body {
         height: 315vh;
     }
 }
-@media (max-width:365px) and (max-height:750px){
+@media (max-width:365px) and (max-height:790px){
+    .description{
+        height: 325vh;
+    }
+}
+@media (max-width:365px) and (max-height:760px){
     .description{
         height: 335vh;
     }
 }
-@media (max-width:365px) and (max-height:700px){
+@media (max-width:365px) and (max-height:740px){
+    .description{
+        height: 350vh;
+    }
+}
+@media (max-width:365px) and (max-height:720px){
     .description{
         height: 360vh;
     }
 }
-@media (max-width:365px) and (max-height:650px){
+@media (max-width:365px) and (max-height:700px){
+    .description{
+        height: 365vh;
+    }
+}
+@media (max-width:365px) and (max-height:680px){
+    .description{
+        height: 375vh;
+    }
+}
+@media (max-width:365px) and (max-height:660px){
     .description{
         height: 390vh;
     }
 }
+@media (max-width:365px) and (max-height:640px){
+    .description{
+        height: 400vh;
+    }
+}
+@media (max-width:365px) and (max-height:620px){
+    .description{
+        height: 415vh;
+    }
+}
 @media (max-width:365px) and (max-height:600px){
     .description{
-        height: 420vh;
+        height: 430vh;
+    }
+}
+@media (max-width:365px) and (max-height:580px){
+    .description{
+        height: 445vh;
+    }
+}
+@media (max-width:365px) and (max-height:560px){
+    .description{
+        height: 460vh;
+    }
+}
+@media (max-width:365px) and (max-height:540px){
+    .description{
+        height: 475vh;
+    }
+}
+@media (max-width:365px) and (max-height:520px){
+    .description{
+        height: 495vh;
+    }
+}
+@media (max-width:365px) and (max-height:500px){
+    .description{
+        height: 495vh;
     }
 }
 @media (max-width: 360px) and (max-height:800px){
